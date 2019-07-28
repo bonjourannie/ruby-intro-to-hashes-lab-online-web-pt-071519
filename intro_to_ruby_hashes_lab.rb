@@ -43,7 +43,7 @@ end
 def monopoly_with_fourth_tier
 	monopoly = {
 	  railroads: { pieces: 4, 
-	    names: {reading_railroad: {}, 
+	    names: {reading_railroad: {"morgage value" => "$100"}, 
 	      pennsylvania_railroad: {},
 	      b_and_o_railroad: {},
 	      shortline: {}
